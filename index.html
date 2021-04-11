@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>extractor</title>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="default.css" />
+    <link rel="stylesheet" href="demo.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Maven+Pro|Muli|Droid+Sans+Mono|Istok+Web"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+
+  <body>
+
+        </a>
+    <div id="container">
+<h1><a href="../">EXRAR</a> <span class="small"></span></h1>
+
+      <div class="description">
+       small programm to extract zip file
+        <hr />
+      </div>
+
+      <h2>file extractor</h2>
+
+      <ol id="demo-container">
+        <li>
+          <label>
+            <span class="form-label">choose a zip file</span>
+            <button id="file-input-button">Open...</button>
+            <input
+              type="file"
+              id="file-input"
+              accept="application/zip"
+              hidden
+            />
+          </label>
+        </li>
+        
+    
+        <li>
+          <label>
+            <span class="form-label">uncompressed files</span>
+           
+            <ul id="file-list" class="empty"></ul>
+          </label>
+           <span class="form-label">you can download by click above uncompressed file</span>
+        </li>
+      </ol>
+    </div>
+    <script type="text/javascript" src="lib/zip.min.js"></script>
+    <script type="text/javascript" src="demo-read-file.js"></script>
+  </body>
+</html>
